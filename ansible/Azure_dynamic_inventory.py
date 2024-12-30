@@ -3,8 +3,7 @@ from azure.identity import DefaultAzureCredential
 from azure.mgmt.network import NetworkManagementClient
 from azure.mgmt.compute import ComputeManagementClient
 
-# Replace '551d4f9d-a651-4011-a550-f4cdcb4f653a' with your actual subscription ID
-subscription_id = '551d4f9d-a651-4011-a550-f4cdcb4f653a'
+subscription_id = 'ENTER YOUR SUBSCRIPTION ID'
 resource_group_name = 'tf-ans-demo-rg'  # Replace with your actual resource group name
 
 # Create a ComputeManagementClient with DefaultAzureCredential
